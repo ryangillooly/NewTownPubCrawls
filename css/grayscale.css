@@ -80,7 +80,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -155,13 +155,14 @@ a:focus {
     -o-background-size: cover;
 }
 
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 400px;
 }
 
 .intro .intro-body .intro-text {
@@ -258,16 +259,14 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
+   
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
@@ -289,7 +288,7 @@ a:focus {
     }
 
     #map {
-        height: 400px;
+        height: 450px;
         margin-top: 250px;
     }
 }
@@ -371,3 +370,66 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+
+
+
+
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+ 
+.fa {
+ width: 60px;
+ display: block;
+ text-align: center;
+ color:#000;
+ font:normal 45px 'FontAwesome';
+ line-height:60px;
+ text-rendering: auto;
+ -webkit-font-smoothing: antialiased;
+}
+.fa-angle-double-down:before {content: "\f103";}
+ 
+.bounce {
+ position: absolute;
+ bottom: 25px;
+ left: 90% ;
+ width: 75px;
+ height: 75px ;
+ margin-left:-30px;
+font-size: 60px;
+
+ -webkit-border-radius:50%;
+ -moz-border-radius:50%;
+ -ms-border-radius:50%;
+ border-radius:50%;
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
+ 
