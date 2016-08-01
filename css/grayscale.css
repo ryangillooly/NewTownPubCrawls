@@ -51,8 +51,6 @@ a {
     transition: all .2s ease-in-out;
 }
 
-#33ccff
-
 a:hover,
 a:focus {
     text-decoration: none;
@@ -62,6 +60,10 @@ a:focus {
 .light {
     font-weight: 400;
 }
+
+
+
+/*####### NAVBAR #########*/
 
 .navbar-custom {
     margin-bottom: 0;
@@ -280,7 +282,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .download-section {
@@ -301,7 +303,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 80px;
     }
 
     .download-section {
@@ -391,11 +393,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
-
-
-
-
-
 
 
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
@@ -571,7 +568,7 @@ ul.AboutUsPhotos li:hover span.text-content {
 
 p#AboutUsParagraph {
     font-family:sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .carousel-inner img {
