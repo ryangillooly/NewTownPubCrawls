@@ -490,6 +490,7 @@ body {
 .AboutUsPhotos li {
     list-style-type: none;
     display: inline;
+    
     margin: 0;
     padding: 0;
 }
@@ -500,7 +501,7 @@ span.text-content {
     color: white;
     cursor: pointer;
     display: table;
-    left: 0;
+    left: 76px;
     height: 300px;
     top: 0;
     width: 304px;
