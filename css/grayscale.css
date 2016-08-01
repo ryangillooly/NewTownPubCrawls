@@ -575,8 +575,8 @@ p#AboutUsParagraph {
 }
 
 .carousel-inner img {
-    width: auto;
-    height: 225px;
-    max-height: 225px;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
     
 }
