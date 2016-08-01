@@ -563,7 +563,7 @@ ul.AboutUsPhotos li:hover span.text-content {
         font-size: 15px;
     }
 
-    ul.AboutUsPhotos li:hover span.text-content {
+    ul.AboutUsPhotos li:hover, li:focus span.text-content {
         opacity: 1;
     }
 }
