@@ -9,13 +9,6 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #000;
-    background: url(../img/NewTown.png) no-repeat center center fixed;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 html {
@@ -157,6 +150,13 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background-color: #000;
+    background: url(../img/NewTown.png) no-repeat center center fixed;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @media(max-width:767px) {
@@ -169,6 +169,13 @@ a:focus {
     top: 8%; /* Was previously 6% - Changed to 8 for iphone 6 scalability */
     text-align: center;
     color: #fff;
+    background-color: #000;
+    background: url(../img/NewTown.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 
 }
 }
