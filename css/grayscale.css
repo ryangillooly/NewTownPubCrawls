@@ -536,7 +536,7 @@ span.text-content span {
     text-shadow: 2px 2px #000
 }
 
-ul.AboutUsPhotos li:hover span.text-content {
+ul.AboutUsPhotos a:hover span.text-content {
     opacity: 1;
 }
 
